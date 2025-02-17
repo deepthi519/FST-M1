@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ExampleSuite" >
+    <suite name="FSTTests" thread-count="4" parallel="classes"> <!-- Test Suite -->
+    <groups> <!-- Groups Control -->
+        <run>
+            <include name="HeaderTests" />
+        </run>
+    </groups>
+    <test name="FSTActivities"> <!-- Test Classes -->
+        <classes>
+            <class name="testNGActivities.Activity5" />
+            <class name="suiteExample.Activity4_DemoOne" />
+            <class name="suiteExample.Activity4_DemoTwo" />
+        </classes>
+    </test>
+</suite>
+</suite>
