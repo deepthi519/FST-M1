@@ -35,4 +35,4 @@ import io.cucumber.junit.platform.engine.Constants;
 @ConfigurationParameter(
 		key = Constants.FILTER_TAGS_PROPERTY_NAME, value = "@activity5"
 		)
-public class ActivitiesRunner {}
+public class ActivitiesRunner3 {}
