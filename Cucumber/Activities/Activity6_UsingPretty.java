@@ -1,4 +1,4 @@
-package testRunners;
+package stepDefinitions;
 import org.junit.platform.suite.api.Suite;
 import org.junit.platform.suite.api.IncludeEngines;
 import org.junit.platform.suite.api.ConfigurationParameter;
@@ -23,6 +23,8 @@ import io.cucumber.junit.platform.engine.Constants;
 @ConfigurationParameter(
 		key = Constants.FILTER_TAGS_PROPERTY_NAME, value = "@activity5"
 		)
+
+
 
 public class Activity6_UsingPretty {
 
